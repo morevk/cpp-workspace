@@ -69,7 +69,7 @@ void ProcessRecordsOld(int count) {
 	delete t;
 
 }
-int test_exception_stack_unwind_nested() {
+int test_exception_stack_unwind_nested_main() {
 	try {
 		//ProcessRecords(std::numeric_limits<int>::max());
 		///ProcessRecords(10);
