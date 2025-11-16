@@ -21,6 +21,7 @@ int main()
     int test_template_factory_method_main();
     int test_template_for_each_main();
     int test_inheritance_main();
+    int test_coroutine_main();
     
     // test_hello_main();
     // test_dynamic_array_main();
@@ -40,8 +41,9 @@ int main()
     // test_template_variadic_log_main();
     // test_template_argument_deduction_main();
     // test_template_factory_method_main();
-    test_template_for_each_main();
+    // test_template_for_each_main();
     // test_inheritance_main();
+    test_coroutine_main();
 
     return 0;
     
